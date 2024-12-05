@@ -1,4 +1,4 @@
-# Homework3# Homework3
+# Homework3
 
 After cloning the repository, build the packages by doing:
 
