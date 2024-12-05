@@ -1,6 +1,11 @@
 # Homework3
 
-After cloning the repository, build the packages by doing:
+WARNING: Inside the Docker file provided by the professor, the world URI is associated with the following path:
+RUN echo "export GZ_SIM_RESOURCE_PATH=~/ros2_ws/src/ros2_iiwa/iiwa_description/gazebo/models" >> ${HOME}/.bashrc
+
+Please, once you have cloned the repository, open the Homework3 folder, copy the files into the directory associated with the Docker container and delete the old one.
+
+After completed this operation, build the packages by doing:
 
      $ colcon build
 
